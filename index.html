@@ -14,37 +14,62 @@
 </head>
 <body>
   <main class="center w-80 mh2">
-  <div class="h1 bg-black-80 mb4"></div>
-    <article>
-      <header>
-        <h2 onclick="toggle_show()" class="f2 mb4 dib link underline-hover pointer">haiku</h2>
-      </header>
-      <div class="container dn">
-        <h3 class="f4">
-        unapred
-        </h3>
-        <p class=mb4>
-        nismo napravili bend<br>
-        mislili smo da cemo sigurno
-        </p>
-        <h3 class="f4">mala</h3>
-        <p class=mb4>
-        mi je kuca za svirku
-        </p>
-        <h3 class="f4">
-        prvi maj
-        </h3>
-        <p class=mb4>
-        ne ide mi se na poso
-        </p>
-        <h3 class="f4">
-        bitcoin
-        </h3>
-        <p class=mb4>
-        da kupim lsd
-        </p>
-      </article>  
-        
+    <div class="h1 bg-black-80 mb4 mt3"></div>
+    <div class=cf>
+      <article class="dib fl ml1 mr5">
+        <header>
+          <h2 class="f2 mb4">haiku</h2>
+        </header>
+          <h3 class="f4">
+          unapred
+          </h3>
+          <p class=mb4>
+          nismo napravili bend<br>
+          mislili smo da cemo sigurno
+          </p>
+          <h3 class="f4">mala</h3>
+          <p class=mb4>
+          mi je kuca za svirku
+          </p>
+          <h3 class="f4">
+          prvi maj
+          </h3>
+          <p class=mb4>
+          ne ide mi se na poso
+          </p>
+          <h3 class="f4">
+          bitcoin
+          </h3>
+          <p class=mb4>
+          da kupim lsd
+          </p>
+        </article>
+        <div class="dib fl">
+          <article class="ml1 mr5">
+            <header>
+              <h2 class="f2 mb4">shell</h2>
+            </header>
+            <code>
+              for i in $(seq 1 1000); do echo "Vucicu pederu!"; done 
+            </code>
+            <a href="https://github.com/dnlo/shell_talk" class="f4 pv2 db link">shell_talk</a>
+          </article>
+          <article class="mt2">
+            <header>
+              <h2 class="f2 mb2">good stuff</h2>
+            </header>
+            <ul class="f4 list">
+              <li class="mb1"><a class="link grow" href="http://suckless.org/rocks/">Suckless</a></li>
+              <li class="mb1"><a class="link grow" href="#">Christopher Hyatt</a></li>
+              <li class="mb1"><a class="link grow" href="http://onlinebooks.library.upenn.edu/webbin/gutbook/author?name=Hamsun%2C%20Knut%2C%201859-1952">Knut Hamsun</a></li>
+              <li class="mb1"><a class="link grow" href="https://commandcenter.blogspot.rs/">Rob Pike</a></li>
+              <li class="mb1"><a class="link grow" href="http://doc.cat-v.org/unix/pipes/">The birth of the pipe</a></li>
+              <li class="mb1"><a class="link grow" href="http://kaliyuga.org/">Kali Yuga Blues</a></li>
+            </ul>
+          </article>
+        </div>
+    </div>
+    <div class="h1 bg-black-80 mb4 mt4"></div>
   </main>
   <script>
   const container = document.getElementsByClassName("container")[0];
